@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:918ec5180e597c19024b722e765508ba7e101f9ce98e0c67585e71bd4d6f991f
-size 133
+class MlPath:
+    model_path = "ml_model/model_rf_minmaxscaler.pkl"
+    scaler_path = "ml_model/scaler_model_rf_minmaxscaler.pkl"
