@@ -1,0 +1,12 @@
+Flask
+Flask-Cors
+flask-openapi3
+Flask-SQLAlchemy
+nose2
+pydantic
+typing_extensions
+scikit-learn
+pandas
+numpy
+pytest
+imbalanced-learn
