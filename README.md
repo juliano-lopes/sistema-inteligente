@@ -12,7 +12,7 @@ Acesse o Google Colab para ter acesso ao passo a passo da [construção deste mo
 * Para poder armazenar grandes arquivos como o pkl do modelo, o projeto utiliza o LFS (Git Large File Storage ).  
 * Instale o LFS: **git lfs install**  
 * Realize o clone do projeto **git clone https://github.com/juliano-lopes/sistema-inteligente.git**  
-* Caso tenha algum problema para utilizar o LFS, [baixe esta versão compactada do projeto](https://drive.google.com/file/d/1nNsNX9KKp--AF37dcPAVKlCTgGhBtrkD/view?usp=sharing) e descompacte em seu computador.  
+* Caso tenha algum problema para utilizar o LFS, [baixe uma versão compactada do projeto que se encontra no Drive ](https://drive.google.com/drive/folders/1WW6JsAfwygDxHYW8PsV6S8NdjYUUFpoL?usp=sharing) e descompacte em seu computador.  
 
 Após baixar ou realizar o clone deste projeto, siga os passos a seguir:  
 * Caso não tenha o python instalado, será necessário instalá-lo em seu sistema;  
