@@ -9,7 +9,7 @@ from model.model import Model
 model = Model()
 
 # Parâmetros    
-url_data = "https://media.githubusercontent.com/media/juliano-lopes/sistema-inteligente/refs/heads/main/dados_de_clientes_teste.csv"
+url_data = "https://raw.githubusercontent.com/juliano-lopes/sistema-inteligente/refs/heads/main/dados_de_clientes_teste.csv"
 cols = [
     'idade',
     'salario_anual',
