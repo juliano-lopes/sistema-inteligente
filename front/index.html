@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>Score inteligente</title>
+</head>
+
+<body>
+    <!-- Cabeçalho de informações do sistema -->
+    <header class="row">
+        <!-- img -->
+
+        <p>Score de crédito inteligente</p>
+    </header>
+    <main class="col">
+        <div class="heading">
+            <h1>Bem-Vindo ao Score Inteligente</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Este sistema foi desenvolvido para auxiliar sua empresa a determinar com confiança o score de crédito
+                    de seus clientes de forma simples e prática por meio de inteligência artificial.</p>
+                <p>Para isso, basta preencher os campos do formulário com os dados do cliente e clicar em "Obter
+                    classificação do score".
+                </p>
+
+                <section>
+                    <!-- form para obter score de crédito -->
+                    <form id="client-form">
+                        <div class="row">
+                            <label for="idade">Idade: </label>
+                            <input required type="number" name="idade" id="idade" placeholder="Idade">
+                        </div>
+
+                        <div class="row">
+                            <label for="salario_anual">Salário anual: </label>
+                            <input required type="text" name="salario_anual" id="salario_anual"
+                                placeholder="Salário anual">
+                        </div>
+                        <div class="row">
+                            <label for="qt_contas"> Quantidade contas</label>
+                            <input required type="number" name="num_contas" id="qt_contas"
+                                placeholder="Quantidade contas">
+                        </div>
+                        <div class="row">
+                            <label for="juros_emprestimo">Juros de empréstimo: </label>
+                            <input required type="text" name="juros_emprestimo" id="juros_emprestimo"
+                                placeholder="Juros de empréstimo">
+                        </div>
+                        <div class="row">
+                            <label for="num_emprestimos">Quantidade de empréstimos: </label>
+                            <input required type="number" name="num_emprestimos" id="num_emprestimos"
+                                placeholder="Número de empréstimos">
+                        </div>
+
+                        <div class="row">
+                            <label for="dias_atraso">Dias de atrasos: </label>
+                            <input required type="number" name="dias_atraso" id="dias_atraso"
+                                placeholder="Dias de atraso">
+                        </div>
+
+                        <div class="row">
+                            <label for="num_pagamentos_atrasados">Pagamentos atrasados: </label>
+                            <input required type="number" name="num_pagamentos_atrasados" id="num_pagamentos_atrasados"
+                                placeholder="Pagamentos atrasados">
+                        </div>
+
+                        <div class="row">
+                            <label for="divida_total">Dívida total: </label>
+                            <input required type="text" name="divida_total" id="divida_total"
+                                placeholder="Dívida total">
+                        </div>
+
+                        <button id="new-score">Obter classificação do score</button>
+                    </form>
+                    <div id="progress"></div>
+                </section>
+                <section id="msg-section" aria-live="polite"></section>
+            </div>
+            <!-- coluna -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Score Inteligente- Todos os direitos reservados</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
